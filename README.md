@@ -1,10 +1,10 @@
 # CybersecurityProject
 
 ## Obtener la dirección IP con la utilidad Netdiscover
-1. Obteniendo la dirección IP con el comando netdiscover, se puede observar que la dirección IP de la máquina objetivo es 192.168.16.132.
+Obteniendo la dirección IP con el comando netdiscover, se puede observar que la dirección IP de la máquina objetivo es 192.168.16.132.
 
 ## Escaneo de puertos a través de Nmap
-1. Se ejecuta un escaneo de puertos para identificar los puertos y servicios abiertos en la máquina destino. Se usa Nmap para escanear los puertos en la máquina destino, nmap -A -p- 192.168.16.132. La salida de Nmap muestra que ha identificado dos puertos abiertos en el escaneo, el puerto 22 que usa el servicio SSH y el puerto 80 que usa el servicio HTTP.
+Se ejecuta un escaneo de puertos para identificar los puertos y servicios abiertos en la máquina destino. Se usa Nmap para escanear los puertos en la máquina destino, nmap -A -p- 192.168.16.132. La salida de Nmap muestra que ha identificado dos puertos abiertos en el escaneo, el puerto 22 que usa el servicio SSH y el puerto 80 que usa el servicio HTTP.
 
 ## Enumerar la aplicación web en ejecución e identificar la vulnerabilidad
 1. Iniciaremos el CTF (captura la bandera) con el puerto 80, abrimos la dirección de la máquina destino del navegador, se observa que la página de inicio en la parte superior derecha hay una funcionalidad de inicio de sesión, por lo que iremos a inicio de sesión.
