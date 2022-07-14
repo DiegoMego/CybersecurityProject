@@ -2,7 +2,7 @@
 
 ## Obtener la dirección IP con la utilidad Netdiscover
 Obteniendo la dirección IP con el comando netdiscover, se puede observar que la dirección IP de la máquina objetivo es 192.168.16.132.
-![This is an image](paso 1.png)
+![This is an image](paso%201.png)
 
 ## Escaneo de puertos a través de Nmap
 Se ejecuta un escaneo de puertos para identificar los puertos y servicios abiertos en la máquina destino. Se usa Nmap para escanear los puertos en la máquina destino, nmap -A -p- 192.168.16.132. La salida de Nmap muestra que ha identificado dos puertos abiertos en el escaneo, el puerto 22 que usa el servicio SSH y el puerto 80 que usa el servicio HTTP.
